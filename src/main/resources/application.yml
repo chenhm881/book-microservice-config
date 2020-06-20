@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: book-microservice-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:chenhm881/book-microservice-config-yml.git
+          timeout: 60
+server:
+  port: 8109
